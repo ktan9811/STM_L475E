@@ -1,0 +1,46 @@
+# Build directories
+/Debug/
+/Release/
+/build/
+
+# Object and dependency files
+*.o
+*.d
+*.lst
+*.map
+*.axf
+*.elf
+*.out
+
+# CubeMX backup files
+*.ioc.backup
+
+# Log and temp files
+*.log
+*.bak
+*.tmp
+
+# IDE settings (local user-specific)
+.cproject
+.project
+.settings/
+
+# Auto-generated files
+Makefile
+mxproject.yml
+
+# CubeIDE specific
+*.launch
+*.svd
+
+# Output binaries
+*.bin
+*.hex
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: if using VSCode
+.vscode/
