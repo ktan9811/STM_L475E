@@ -1,41 +1,48 @@
-# Build directories
+# ───────────────────────────────
+# ▶ Build output directories
 /Debug/
 /Release/
 /build/
 
-# Object and dependency files
+# ▶ Object and dependency files
 *.o
 *.d
-*.lst
-*.map
 *.axf
 *.elf
 *.out
+*.map
+*.lst
+*.list
+*.su
+*.cyclo
 
-# CubeMX backup files
-*.ioc.backup
-
-# Log and temp files
-*.log
-*.bak
-*.tmp
-
-# Auto-generated files
+# ▶ Auto-generated build configs
+*.mk
 Makefile
 mxproject.yml
 
-# CubeIDE specific
+# ▶ CubeMX backup files
+*.ioc.backup
+
+# ▶ Logs and temporary files
+*.log
+*.bak
+*.tmp
+*.prefs
+
+# ▶ STM32CubeIDE specific
 *.launch
 *.svd
 
-# Output binaries
+# ▶ Output binaries
 *.bin
 *.hex
 
-# System files
+# ▶ User/system generated files
 .DS_Store
 Thumbs.db
 desktop.ini
+*.xml
 
-# Optional: if using VSCode
+# ▶ VSCode project config (optional)
 .vscode/
